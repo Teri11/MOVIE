@@ -5,6 +5,10 @@ from .request import get_movies,get_movie
 from .request import get_movies,get_movie,search_movie #creating a view function for the for the search route.
 from .request import get_movies
 from flask import render_template,request,redirect,url_for #requesting for object
+
+
+
+
 # Views
 @app.route('/')
 def index():
